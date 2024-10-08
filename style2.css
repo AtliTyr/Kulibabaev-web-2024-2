@@ -78,6 +78,7 @@ section > div {
 }
 
 .single_order {
+    border: 2px solid transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -156,7 +157,7 @@ footer p {
         flex-direction: row;
         justify-content: space-between;
     }
-    section > div {
+    main > section > div {
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -185,7 +186,7 @@ footer p {
         text-align: center;
     }
 
-    section > div {
+    main > section > div {
         grid-template-columns: 1fr;
         align-items: stretch;
     }
